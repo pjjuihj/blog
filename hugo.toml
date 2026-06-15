@@ -3,6 +3,10 @@ languageCode = 'zh-cn'
 title = 'CMJ的技术博客'
 theme = 'PaperMod'
 
+enableInlineShortcodes = true
+enableRobotsTXT = true
+enableEmoji = true
+
 [params]
   author = 'cmj156'
   description = '嵌入式开发 | STM32 | 编程学习笔记'
@@ -15,14 +19,11 @@ theme = 'PaperMod'
   ShowWordCount = true
   ShowRssButtonInSectionTermList = true
   UseHugoToc = true
-  disableSpecial1stPost = false
   ShowToc = true
   TocOpen = true
+  ShowAllPagesInArchive = true
+  ShowPageNums = true
   comments = true
-
-  [params.homeInfoParams]
-    Title = '你好，我是 cmj156 👋'
-    Content = '嵌入式开发爱好者 | STM32 | 编程学习笔记 | 技术折腾日常'
 
   [params.profileMode]
     enabled = true
@@ -30,41 +31,37 @@ theme = 'PaperMod'
     subtitle = '嵌入式开发爱好者，喜欢用代码控制硬件，记录 STM32、编程、技术折腾的日常。'
     imageUrl = 'https://avatars.githubusercontent.com/u/229704746'
     imageTitle = 'cmj156'
-    imageWidth = 150
-    imageHeight = 150
+
+  [[params.profileMode.buttons]]
+    name = '查看文章'
+    url = '/posts'
+
+  [[params.profileMode.buttons]]
+    name = '关于我'
+    url = '/about'
 
   [[params.socialIcons]]
     name = 'github'
+    title = 'GitHub'
     url = 'https://github.com/cmj156'
 
   [[params.socialIcons]]
     name = 'email'
+    title = 'Email'
     url = 'mailto:your-email@example.com'
 
-  [[params.homeInfoParams.buttons]]
-    name = '查看文章'
-    url = '/posts'
-    weight = 10
+  [params.editPost]
+    URL = 'https://github.com/cmj156/blog/edit/main/content'
+    Text = '在 GitHub 上编辑本页'
+    appendFilePath = true
 
-  [[params.homeInfoParams.buttons]]
-    name = '关于我'
-    url = '/about'
-    weight = 20
+  [params.assets]
+    disableHLJS = false
 
   [params.cover]
     hidden = false
     hiddenInList = false
     hiddenInSingle = false
-
-  [params.editPost]
-    URL = 'https://github.com/cmj156/blog/edit/main/content'
-    Text = '在 GitHub 上编辑本页'
-
-  [params.assets]
-    disableHLJS = false
-
-[params.coverStyle]
-  hidden = false
 
 [menu]
   [[menu.main]]
@@ -140,17 +137,13 @@ theme = 'PaperMod'
     lazyLoading = true
 
 [params.SEO]
-  # General
   title = 'CMJ的技术博客'
   description = '嵌入式开发、STM32、编程学习笔记和技术分享'
   images = ['']
-  # Twitter
   twitterSite = ''
   twitterCreator = '@your_twitter'
-  # OpenGraph
   type = 'website'
   locale = 'zh_CN'
-  # JSON-LD
   schema_type = 'Person'
   schema_name = 'cmj156'
   schema_url = 'https://github.com/cmj156'
