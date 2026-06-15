@@ -34,11 +34,11 @@ enableEmoji = true
 
   [[params.profileMode.buttons]]
     name = '查看文章'
-    url = '/posts'
+    url = '/posts/'
 
   [[params.profileMode.buttons]]
     name = '关于我'
-    url = '/about'
+    url = '/about/'
 
   [[params.socialIcons]]
     name = 'github'
