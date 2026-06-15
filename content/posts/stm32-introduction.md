@@ -4,8 +4,9 @@ date: 2026-06-12
 draft: false
 tags: ["stm32", "嵌入式", "微控制器", "c语言"]
 categories: ["嵌入式开发"]
-author: "你的名字"
+author: "cmj156"
 summary: "STM32是当前最流行的ARM Cortex-M微控制器系列，本文将带你了解STM32的基础知识。"
+image: "https://picsum.photos/seed/stm32/800/400"
 ---
 
 ## 什么是STM32？

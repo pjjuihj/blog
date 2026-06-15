@@ -1,13 +1,13 @@
 baseURL = 'https://cmj156.github.io/blog/'
 languageCode = 'zh-cn'
-title = '我的技术博客'
+title = 'CMJ的技术博客'
 theme = 'PaperMod'
 
 [params]
-  author = '你的名字'
-  description = '分享编程学习笔记和技术教程'
+  author = 'cmj156'
+  description = '嵌入式开发 | STM32 | 编程学习笔记'
   defaultTheme = 'auto'
-  ShowShareButtons = false
+  ShowShareButtons = true
   ShowReadingTime = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
@@ -16,14 +16,36 @@ theme = 'PaperMod'
   ShowRssButtonInSectionTermList = true
   UseHugoToc = true
   disableSpecial1stPost = false
+  ShowToc = true
+  TocOpen = true
+  comments = true
 
   [params.homeInfoParams]
-    Title = '欢迎来到我的技术博客'
-    Content = '这里记录我的编程学习笔记和技术分享'
+    Title = '你好，我是 cmj156 👋'
+    Content = '嵌入式开发爱好者，记录 STM32、编程、技术折腾的日常。'
 
   [[params.socialIcons]]
     name = 'github'
     url = 'https://github.com/cmj156'
+
+  [[params.socialIcons]]
+    name = 'email'
+    url = 'mailto:your-email@example.com'
+
+  [params.cover]
+    hidden = false
+    hiddenInList = false
+    hiddenInSingle = false
+
+  [params.editPost]
+    URL = 'https://github.com/cmj156/blog/edit/main/content'
+    Text = '在 GitHub 上编辑本页'
+
+  [params.assets]
+    disableHLJS = false
+
+[params.coverStyle]
+  hidden = false
 
 [menu]
   [[menu.main]]
@@ -42,10 +64,20 @@ theme = 'PaperMod'
     url = '/archives/'
     weight = 30
   [[menu.main]]
+    identifier = 'categories'
+    name = '分类'
+    url = '/categories/'
+    weight = 35
+  [[menu.main]]
     identifier = 'search'
     name = '搜索'
     url = '/search/'
     weight = 40
+  [[menu.main]]
+    identifier = 'about'
+    name = '关于'
+    url = '/about/'
+    weight = 50
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
@@ -63,3 +95,43 @@ theme = 'PaperMod'
     style = 'monokai'
   [markup.goldmark.renderer]
     unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 2
+  endLevel = 4
+  ordered = false
+
+[params.Comments]
+  enabled = true
+  provider = 'giscus'
+
+  [params.Comments.giscus]
+    repo = 'cmj156/blog'
+    repoId = ''
+    category = 'Announcements'
+    categoryId = ''
+    mapping = 'pathname'
+    strict = false
+    reactionsEnabled = true
+    emitMetadata = 0
+    inputPosition = 'bottom'
+    lang = 'zh-CN'
+    lightTheme = 'light'
+    darkTheme = 'dark'
+    lazyLoading = true
+
+[params.SEO]
+  # General
+  title = 'CMJ的技术博客'
+  description = '嵌入式开发、STM32、编程学习笔记和技术分享'
+  images = ['']
+  # Twitter
+  twitterSite = ''
+  twitterCreator = '@your_twitter'
+  # OpenGraph
+  type = 'website'
+  locale = 'zh_CN'
+  # JSON-LD
+  schema_type = 'Person'
+  schema_name = 'cmj156'
+  schema_url = 'https://github.com/cmj156'
