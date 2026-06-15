@@ -48,7 +48,7 @@ enableEmoji = true
   [[params.socialIcons]]
     name = 'email'
     title = 'Email'
-    url = 'mailto:your-email@example.com'
+    url = 'mailto:3386058487@qq.com'
 
   [params.editPost]
     URL = 'https://github.com/cmj156/blog/edit/main/content'
