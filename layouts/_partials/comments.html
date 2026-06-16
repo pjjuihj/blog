@@ -1,6 +1,6 @@
 {{- if .Params.comments | default site.Params.comments }}
-<div id="giscus-container">
-  <script src="https://giscus.lab.wkz.dev/client.js"
+<div id="giscus-container" style="min-height: 200px;">
+  <script src="https://giscus.app/client.js"
     data-repo="{{ site.Params.Comments.giscus.repo }}"
     data-repo-id="{{ site.Params.Comments.giscus.repoId }}"
     data-category="{{ site.Params.Comments.giscus.category }}"
@@ -10,7 +10,7 @@
     data-reactions-enabled="{{ if site.Params.Comments.giscus.reactionsEnabled }}1{{ else }}0{{ end }}"
     data-emit-metadata="{{ site.Params.Comments.giscus.emitMetadata }}"
     data-input-position="{{ site.Params.Comments.giscus.inputPosition }}"
-    data-theme="{{ site.Params.Comments.giscus.lightTheme }}"
+    data-theme="preferred_color_scheme"
     data-lang="{{ site.Params.Comments.giscus.lang }}"
     crossorigin="anonymous"
     async>

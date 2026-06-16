@@ -23,7 +23,6 @@ enableEmoji = true
   TocOpen = true
   ShowAllPagesInArchive = true
   ShowPageNums = true
-  comments = true
 
   [params.profileMode]
     enabled = true
@@ -138,7 +137,7 @@ enableEmoji = true
     lang = 'zh-CN'
     lightTheme = 'light'
     darkTheme = 'dark'
-    lazyLoading = true
+    lazyLoading = false
 
 [params.SEO]
   title = 'CMJ的技术博客'
