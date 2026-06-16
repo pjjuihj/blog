@@ -5,6 +5,7 @@ draft: false
 tags: ["python", "编程语言", "入门"]
 categories: ["编程教程"]
 author: "cmj156"
+comments: true
 summary: "Python是当前最流行的编程语言之一，本文将带你快速入门Python编程。"
 image: "https://picsum.photos/seed/python/800/400"
 ---

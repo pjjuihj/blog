@@ -5,6 +5,7 @@ draft: false
 tags: ["stm32", "嵌入式", "PID控制", "卡尔曼滤波", "MPU6050", "项目开发"]
 categories: ["项目开发"]
 author: "cmj156"
+comments: true
 summary: "记录一个基于STM32F103的手势控制自平衡平台的完整开发过程，从硬件选型到PID调参的全过程。"
 image: "https://picsum.photos/seed/balance/800/400"
 ---

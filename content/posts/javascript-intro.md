@@ -5,6 +5,7 @@ draft: false
 tags: ["javascript", "web开发", "前端"]
 categories: ["Web开发"]
 author: "cmj156"
+comments: true
 summary: "JavaScript是Web开发的核心语言，本文将带你了解JavaScript的基础知识。"
 image: "https://picsum.photos/seed/javascript/800/400"
 ---

@@ -5,6 +5,7 @@ draft: false
 tags: ["git", "版本控制", "编程工具"]
 categories: ["工具教程"]
 author: "cmj156"
+comments: true
 summary: "Git是现代软件开发中不可或缺的版本控制工具，本文将带你从基础开始学习Git。"
 image: "https://picsum.photos/seed/git/800/400"
 ---

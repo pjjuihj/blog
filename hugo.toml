@@ -23,6 +23,7 @@ enableEmoji = true
   TocOpen = true
   ShowAllPagesInArchive = true
   ShowPageNums = true
+  comments = true
 
   [params.profileMode]
     enabled = true
