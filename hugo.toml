@@ -1,4 +1,4 @@
-baseURL = 'https://pujj-blog.netlify.app/'
+baseURL = '/'
 languageCode = 'zh-cn'
 title = 'pujj的技术博客'
 theme = 'PaperMod'
