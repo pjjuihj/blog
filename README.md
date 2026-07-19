@@ -4,7 +4,7 @@
 
 ## 🔗 访问博客
 
-**👉 [https://pujj-blog.netlify.app](https://pujj-blog.netlify.app)**
+**👉 [https://pjjuihj.github.io/blog](https://pjjuihj.github.io/blog)**
 
 ---
 
@@ -23,7 +23,7 @@
 |------|------|
 | [Hugo](https://gohugo.io/) | 静态网站生成器 |
 | [PaperMod](https://github.com/adityatelange/hugo-PaperMod) | Hugo 主题 |
-| [Netlify](https://netlify.com) | 托管部署平台 |
+| [GitHub Pages](https://pages.github.com/) | 托管部署平台 |
 | [Giscus](https://giscus.app/) | 评论系统 |
 
 ---
@@ -52,7 +52,7 @@ hugo --gc --minify
 # 输出目录：./public
 ```
 
-博客已配置 Netlify 自动部署，推送到 `main` 分支即可触发更新。
+博客已配置 GitHub Pages 自动部署，推送到 `main` 分支即可触发更新。
 
 ---
 
